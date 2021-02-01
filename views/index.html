@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Payment page</title>
+</head>
+
+<body>
+  <h1>A simple page to show payment using Node.js</h1>
+  <div>
+    <form action="/charge" method="POST" >
+      <input  type="email" name="name" placeholder="Name">
+      <input type="text"  name="address" placeholder="Enter your shipping Address">
+      <input  type="text" name="amount" placeholder="Amount">
+      <button >Submit Payment</button>
+    </form>
+  </div>
+</body>
+
+<script src="https://js.stripe.com/v3/"></script>
+<script src="app.js"></script>
+</html>

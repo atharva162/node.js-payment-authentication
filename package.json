@@ -1,0 +1,24 @@
+{
+  "name": "stripe-node.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.14",
+    "nodemailer": "^6.4.17",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "stripe": "^8.132.0"
+  }
+}
